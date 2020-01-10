@@ -8,10 +8,10 @@ The software requires R version 3.5 or newer which can be installed
 following links at https://www.r-project.org/
 
 
-Run the "RunShinyApp.R" script in this folder to execute the program.
-The scripts and functions underlying this program are available 
-in the "shiny" directory.
+Change your R working directory to "Fentanyl-Classifier/shiny".
+Run the command:
 
+  source("app.R")
 
 All code available in this package can be used freely, acknowledging 
 that it was developed for research purposes and thus carries no 
