@@ -4,12 +4,12 @@ similarity mapping applied to fentanyl analogs" by Moorthy et. al.
 Correspondence should be addressed to 
 Arun Moorthy: arun.moorthy@nist.gov
 
-The software requires R which can be installed following links 
-at https://www.r-project.org/
+The software requires R>version 3.5 which can be installed following 
+links at https://www.r-project.org/
 
 
 Run the "RunShinyApp.R" script in this folder to execute the program.
-The scripts and functions employed in this program are available 
+The scripts and functions underlying this program are available 
 in the "shiny" directory.
 
 All code available in this package can be used freely, acknowledging 
