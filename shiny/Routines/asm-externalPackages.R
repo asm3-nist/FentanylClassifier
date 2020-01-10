@@ -5,12 +5,12 @@ if("shiny" %in% row.names(installed.packages())==FALSE){
   require(shiny)
 }
 
-# if("devtools" %in% row.names(installed.packages())==FALSE){
-#   install.packages("devtools",dependencies=TRUE)
-#   library(devtools)
-# } else{
-#   library(devtools)
-# }
+if("devtools" %in% row.names(installed.packages())==FALSE){
+  install.packages("devtools",dependencies=TRUE)
+  library(devtools)
+} else{
+  library(devtools)
+}
 
 if("shinythemes" %in% rownames(installed.packages()) == FALSE){
   install.packages("shinythemes")
