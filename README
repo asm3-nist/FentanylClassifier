@@ -7,16 +7,22 @@ Arun Moorthy: arun.moorthy@nist.gov
 The software requires R version 3.5 or newer which can be installed 
 following links at https://www.r-project.org/
 
+Use:
 
-Change your R working directory to "Fentanyl-Classifier/shiny".
-Run the command:
+1. Open R
 
-  source("app.R")
+2. Change your R working directory to the unzipped folder 
+   "Fentanyl-Classifier/" or to wherever the source files for the app
+    have been extracted. 
+
+3. Run the command:  source("RunShinyApp.R")
+
+Necessary packages will be installed during the first run. Subsequent 
+runs should not require installations. 
 
 All code available in this package can be used freely, acknowledging 
 that it was developed for research purposes and thus carries no 
 guarantees of effectiveness beyond the examples described in the 
 previously noted manuscript.
 
-
-
+For troubleshooting, please contact corresponding author.
